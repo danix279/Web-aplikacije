@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web aplikacije</title>
+</head>
+<body>
+    
+    <h1>Ovo je Glavni Naslov</h1>
+
+    <h2>Ovo je Podnaslov</h2>
+
+    <p>Ovo je prvi odlomak.</p>
+    
+    <p>Ovo je drugi odlomak.</p>
+	
+   
+    <h3>Slika sa Apsolutnom Putanjom</h3>
+    <figure>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1928_Model_A_Ford.jpg/1200px-1928_Model_A_Ford.jpg" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1928_Model_A_Ford.jpg/1200px-1928_Model_A_Ford.jpg" alt="Model A Ford" width="300">
+        </a>
+        <figcaption>Model A Ford iz 1928. Kliknite na sliku za veću verziju.</figcaption>
+    </figure>
+
+    
+    <h3>Slika sa Relativnom Putanjom</h3>
+    <figure>
+        <a href="henry-ford-automobile.jpg" target="_blank">
+            <img src="henry-ford-automobile.jpg" alt="Henry Ford Automobile" width="300">
+        </a>
+        <figcaption>Henry Ford Automobile. Kliknite na sliku za veću verziju.</figcaption>
+    </figure>
+
+</body>
+</html>
