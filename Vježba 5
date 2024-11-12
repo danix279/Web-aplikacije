@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hr">
+	<head>
+		<title>Primjeri</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Danijel Jagustin">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		
+		<style>
+			body { margin: 1em; }
+		</style>
+	</head>
+	<body>
+	<h1>Popis mobitela</h1>
+	   <table border="1" cellspacing="5" cellpadding="5">
+		<tr>
+		  <th colspan="2">Samsung</th> 
+		  <th colspan="2">Apple</th> 
+		</tr>
+		<tr>
+		  <td><img src="https://static.office-discount.at/img/27/31/Zoom_m2488998.jpg?width=800&height=800&fit=contain&bg=ffffff" width="80" alt="Samsung Galaxy S24" title="Samsung Galaxy S24"></td>
+		  <td>Galaxy S24</td>
+		  <td><img src="https://mac-center.com.pr/cdn/shop/files/iPhone_16_Pro_Max_Desert_Titanium_PDP_Image_Position_1__en-US_cd3b106e-724d-4b79-8c34-0cd93e66c4d7.jpg?v=1726227139" width="80" alt="Iphone 16" title="Iphone 16"></td>
+		  <td>Iphone 16</td>
+		</tr> 
+		<tr>
+		  <td><img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_101827334?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" width="80" alt="Samsung Galaxy S23" title="Samsung Galaxy S23"></td>
+		  <td>Galaxy 23</td>
+		  <td><img src="https://files.refurbed.com/ii/iphone-15-1694592103.jpg?t=fitdesign&h=600&w=800" width="80" alt="Iphone 15" title="Iphone 15"></td>
+		  <td>Iphone 15</td>
+		</tr>
+	   </table>
+	</body>
+</html>
