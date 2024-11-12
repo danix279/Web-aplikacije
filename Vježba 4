@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+	<head>
+		<title>Primjeri</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Danijel Jagustin">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+	<h1>Popis mobitela</h1>
+	   <table border="1" cellspacing="5" cellpadding="5">
+		<tr>
+		  <th>Samsung</th> 
+		  <th>Apple</th> 
+		  <th>Huawei</th> 
+		  <th>Panasonic</th> 
+		</tr>
+		<tr>
+		  <td>Galaxy S21</td>
+		  <td>iPhone 13</td>
+		  <td>Mate 40 Pro</td>
+		  <td>Eluga Ray 900</td>
+		</tr> 
+		<tr>
+		  <td>Galaxy S20</td>
+		  <td>iPhone 12</td>
+		  <td>P40 Pro</td>
+		  <td>Eluga I5</td>
+		</tr>
+		<tr>
+		  <td>Galaxy Note 20</td>
+		  <td>iPhone 11</td>
+		  <td>Nova 7i</td>
+		  <td>Eluga X1</td>
+		</tr>
+		<tr>
+		  <td>Galaxy Z Fold 3</td>
+		  <td>iPhone 10</td>
+		  <td>Nova 5T</td>
+		  <td>Eluga A7</td>
+		</tr>
+		<tr>
+		  <td>Galaxy A52</td>
+		  <td>iPhone SE</td>
+		  <td>P30 Pro</td>
+		  <td>Eluga A4</td>
+		</tr>
+	   </table>
+	</body>
+</html>
