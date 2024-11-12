@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web aplikacije</title>
+</head>
+<body>
+    
+    <h1>Ovo je Glavni Naslov</h1>
+
+    
+    <h2>Ovo je Podnaslov</h2>
+
+    
+    <p>Ovo je prvi odlomak.</p>
+    
+    <p>Ovo je drugi odlomak.</p>
+</body>
+</html>
