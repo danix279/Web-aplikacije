@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vježba 8</title>
+</head>
+<body>
+   
+    <div>
+        <p>Lorem ipsum dolor sit amet, <strong style="color:red">consectetur</strong> adipiscing elit.</p>
+        <p>Nulla facilisi. Fusce vehicula dui et <strong style="color:red">tempus</strong> vulputate.</p>
+    </div>
+
+    
+    <p>Lorem ipsum dolor sit amet, <strong style="color:red">nulla</strong> gravida libero.</p>
+    <p>Donec euismod <strong style="color:red">vulputate</strong> turpis vel facilisis.</p>
+</body>
+</html>
