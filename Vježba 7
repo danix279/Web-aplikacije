@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Mobitela</title>
+</head>
+<body>
+    <h1>Popis Mobitela</h1>
+
+    <h2>Uređena lista </h2>
+    <ol>
+        <li>Samsung</li>
+        <li>Apple</li>
+        <li>Huawei</li>
+        <li>Panasonic</li>
+        <li>Motorola</li>
+    </ol>
+
+    <h2>Neuređena lista </h2>
+    <ul>
+        <li>Samsung</li>
+        <li>Apple</li>
+        <li>Huawei</li>
+        <li>Panasonic</li>
+        <li>Motorola</li>
+    </ul>
+
+    <h2>Definicijska lista</h2>
+    <dl>
+        <dt>Samsung</dt>
+        <dd>Proizvođač mobilnih uređaja, poznat po Galaxy seriji.</dd>
+        <dt>Apple</dt>
+        <dd>Američki proizvođač mobilnih uređaja, poznat po iPhone modelima.</dd>
+        <dt>Huawei</dt>
+        <dd>Kineski proizvođač mobitela, popularan sa P i Mate serijama.</dd>
+        <dt>Panasonic</dt>
+        <dd>Japanski tehnološki gigant, koji nudi Eluga seriju pametnih telefona.</dd>
+        <dt>Motorola</dt>
+        <dd>Američka kompanija, poznata po modelima Moto G i Edge serije.</dd>
+    </dl>
+
+    <h2>Ugnježdena lista</h2>
+    <ol>
+        <li>Samsung
+            <ul>
+                <li>Galaxy S23 Ultra</li>
+                <li>Galaxy S23+</li>
+                <li>Galaxy S23</li>
+                <li>Galaxy Z Fold 5</li>
+                <li>Galaxy Z Flip 5</li>
+            </ul>
+        </li>
+        <li>Apple
+            <ul>
+                <li>iPhone 12</li>
+                <li>iPhone 13</li>
+                <li>iPhone 14 Plus</li>
+                <li>iPhone 15 Pro</li>
+            </ul>
+        </li>
+    </ol>
+
+    <footer>
+        <p>Copyright © Danijel Jagustin, <a href="https://github.com/danix279" target="_blank">GitHub</a> & Ime projekta. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
