@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <form>
+        <label for="firstName">First Name *</label><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Your first name.." required><br><br>
+
+        <label for="lastName">Last Name *</label><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Your last name.." required><br><br>
+
+        <label for="email">Your E-mail *</label><br>
+        <input type="email" id="email" name="email" placeholder="Your e-mail.." required><br><br>
+
+        <label for="country">Country</label><br>
+        <select id="country" name="country">
+            <option value="croatia">Croatia</option>
+            <option value="serbia">Serbia</option>
+            <option value="slovenia">Slovenia</option>
+            <option value="bosnia">Bosnia and Herzegovina</option>
+            <option value="montenegro">Montenegro</option>
+        </select><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" placeholder="Write something..."></textarea><br><br>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
