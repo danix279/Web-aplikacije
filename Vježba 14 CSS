@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			h1 {
+			  font-family: Verdana,Helvetica,sans-serif;
+			  font-weight: bold;
+			  font-size: 24px;
+			}
+			p {
+			  font-family: Verdana,Helvetica,sans-serif;
+			  font-size: 12px;
+			}
+			p.citat {
+			  font-style: italic;
+			  font-size: 12px;
+			  border: 1px solid #000;
+			  padding: 6px;
+			  background-color: #FFFFCC;
+			} 
+		</style>
+		<title>Web aplikacije</title>
+	</head>
+	<h1>Dolazak oluje</h1>
+	<p>Dok su oblaci polako prekrivali sunce, u daljini se začuo zvuk oluje koja je najavljivala promjenu vremena. Na vrhu brežuljka stajala je usamljena kuća, čija su svjetla treperila u ritmu s nadolazećim grmljavinom....</p>
+	<p class="citat">&quot;Kako su se oblaci polako skupljali, u daljini se začuo tutanj oluje koja je najavljivala promjenu vremena. Na vrhu brežuljka nalazila se usamljena kuća, čija su svjetla pulsirala u ritmu nadolazeće grmljavine.&quot;</p>
+</body>
+</html>
