@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web aplikacije</title>
+    <style>
+        a {
+            color: green;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web aplikacije</h1>
+    <p>
+        Stranica s vezom.Kliknite
+        <a href="https://dealer.porsche.com/hr/zagreb/hr-HR">ovaj link</a> 
+        za više informacija o Porsche automobilima.
+    </p>
+</body>
+</html>
