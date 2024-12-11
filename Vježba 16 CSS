@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web aplikacije</title>
+    <style>
+        body, html {
+            font-family: 'Titillium Web', sans-serif;
+            margin: 0 auto;
+            width: 75%;
+            background-color: black;
+        }
+        h1, p {
+            margin: 0; 
+            padding: 0;
+            margin-bottom: 10px;
+        }
+        figure {
+            width: 50%;
+            border: 0px solid white;
+            float: left;
+            margin: 0;
+            padding: 0;
+            margin-right: 4%;
+        }
+        figure img {
+            width: 100%;
+        }
+        h1, p {
+            color: white;
+        }
+        .video-container {
+            margin-top: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Porsche 911 GT3 RS</h1>
+    <figure><img src="https://assets.porsche.com/hr/zagreb/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-GT3-RS/General-Model/general-information-911.jpg?rev=-1&w=750" alt="Porsche 911 GT3 RS"></figure>
+    <p>Sportaši znaju: vrhunska izvedba zahtijeva više od savršenih uvjeta i sreće. Nemilosrdna obuka kako bi se postalo jačim i bržim. Preispitivanje svega, posebno sebe. Učenje iz svake pogreške. Zato što je najveći izazov ostati nepobjediv. S takvim stavom Porsche nastavlja pomicati granice onoga što je moguće. Doživite novi 911 GT3 RS u vrhunskoj formi - s poboljšanom izvedbom na trkaćim stazama.Novi 911 GT3 RS orijentiran je na izvedbu – zahvaljujući povećanoj potisnoj sili i revidiranoj aerodinamici. Koristeći sve podatke o vozilu, uključujući uzdužno/bočno ubrzanje, položaj papučice gasa/kočnice i vrijednosti trenja, čak i položaj stražnjeg krila i prednjeg difuzora automatski se prilagođavaju situaciji vožnje u djeliću sekunde pomoću sustava Porsche Active Aerodynamics (PAA) uz sustav DRS. Najbolji preduvjeti za sljedeći krug za za sljedeći najbrži krug.Najvažnija smjernica u konstrukciji s fokusom na lagano: smanjiti do maksimuma. Novi 911 GT3 RS također ostaje vjeran toj filozofiji motosport – unatoč znatno proširenoj i dodatno poboljšanoj opremi u usporedbi s prethodnicima, uključujući aktivnu aerodinamiku, šire kotače i gume, širu karoseriju i opsežnije mogućnosti prilagodbe šasije u različitim načinima vožnje. Dosljedna uporaba plastike ojačane ugljičnim vlaknima (CFRP) omogućuje težinu praznog vozila od samo 1450 kg.Čim startno svjetlo postane zeleno, novi 911 GT3 RS pruža nevjerojatne performanse na trkaćoj stazi s do 470 Nm. 386 kW (525 KS) katapultira vas od 0 do 100 km/h za 3,2 sekunde, bez vremena za disanje dok ne postignete maksimalnu brzinu od 296 km/h. Lagani sportski ispušni sustav od nehrđajućeg čelika osigurava nefiltrirano iskustvo zvuka do najviše 9000 o/min. </p>
+    <div class="video-container">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/478Ay_lNpT4?si=65nHmaUkQfKiM4-N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
