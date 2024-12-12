@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web aplikacije</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 40px;
+        }
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        h1:hover {
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        p:first-of-type {
+            letter-spacing: 2px;
+            word-spacing: 7px;
+            text-indent: 50px;
+            margin-bottom: 20px;
+        }
+        p:not(:first-of-type) {
+            line-height: 1.8;
+            text-indent: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ferrari F8 Tributo</h1>
+    <p>Ferrari F8 Tributo je automobil koji oduzima dah. Uz impresivne performanse i izuzetan dizajn, predstavlja vrhunac automobilske tehnologije. Svaki detalj na ovom vozilu je pažljivo izrađen, pružajući neusporedivu vozačku zabavu.</p>
+    <p>Unutrašnjost Ferrari F8 Tributo kombinira luksuz s funkcionalnošću, pružajući vozaču najbolje od oba svijeta. Sa svojim snažnim motorom, ovaj automobil je sposoban za nevjerojatne brzine, čineći ga jednim od najpoželjnijih sportskih automobila na svijetu.</p>
+</body>
+</html>
