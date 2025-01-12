@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galerija slika">
+    <meta name="keywords" content="Galerija, slike, automobili, Porsche">
+    <meta name="author" content="Danijel Jagustin">
+    <title>Galerija Slika</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex: 1;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        figure {
+            margin: 0;
+        }
+        figure img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        figure img:hover {
+            transform: scale(1.05);
+        }
+        figure figcaption {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            font-size: 0.9em;
+            padding-top: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #00acee;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galerija Slika</h1>
+    </header>
+    <nav>
+        <a href="Početna stranica.html">Početna stranica</a>
+        <a href="Modeli.html">Modeli</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="O nama.html">O nama</a>
+        <a href="Galerija.html">Galerija</a>
+    </nav>
+    <main>
+        <section class="gallery">
+            <figure>
+                <a href="Slika%201.jpg" target="_blank">
+                    <img src="Slika%201.jpg" alt="Porsche 911">
+                </a>
+                <figcaption>Porsche 911</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%202.jpg" target="_blank">
+                    <img src="Slika%202.jpg" alt="Porsche 911 GT3 RS igračka">
+                </a>
+                <figcaption>Porsche 911 GT3 RS igračka</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%203.jpg" target="_blank">
+                    <img src="Slika%203.jpg" alt="Porsche 718 Cayman">
+                </a>
+                <figcaption>Porsche 718 Cayman</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%204.jpg" target="_blank">
+                    <img src="Slika%204.jpg" alt="Porsche Taycan Cross Turismo">
+                </a>
+                <figcaption>Porsche Taycan Cross Turismo</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%205.jpg" target="_blank">
+                    <img src="Slika%205.jpg" alt="Porsche Carrera GT">
+                </a>
+                <figcaption>Porsche Carrera GT</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%206.jpg" target="_blank">
+                    <img src="Slika%206.jpg" alt="Novi Porsche 911">
+                </a>
+                <figcaption>Novi Porsche 911</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%207.jpg" target="_blank">
+                    <img src="Slika%207.jpg" alt="Porsche Lego">
+                </a>
+                <figcaption>Porsche Lego</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%208.jpg" target="_blank">
+                    <img src="Slika%208.jpg" alt="Porsche Cayenne">
+                </a>
+                <figcaption>Porsche Cayenne</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%209.jpg" target="_blank">
+                    <img src="Slika%209.jpg" alt="Porsche 911 classic">
+                </a>
+                <figcaption>Porsche 911 classic</figcaption>
+            </figure>
+            <figure>
+                <a href="Slika%2010.jpg" target="_blank">
+                    <img src="Slika%2010.jpg" alt="Porsche 911 knjiga">
+                </a>
+                <figcaption>Porsche 911 knjiga</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>Pratite nas na 
+            <a href="https://www.instagram.com/porsche/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a> | 
+            <a href="https://github.com/danix279" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        </p>
+        <p>Ugljični dioksid (CO₂) najvažniji je staklenički plin koji uzrokuje globalno zatopljenje. Emisije onečišćujućih tvari u vanjski zrak iz prometa značajno doprinose pogoršanju kvalitete vanjskog zraka. Posebno doprinose pretjerano povišenim koncentracijama prizemnog ozona, PM₁0 i PM₂.5 čestica i dušikovih oksida.Porsche radi svakodenovo na očuvanje našeg planeta.</p>
+    </footer>
+</body>
+</html>

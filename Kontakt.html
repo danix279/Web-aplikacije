@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt stranica">
+    <meta name="keywords" content="Kontakt, forma, Google karta, Porsche">
+    <meta name="author" content="Danijel Jagustin">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex: 1;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #444;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #00acee;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .map-container {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+    <nav>
+        <a href="Početna stranica.html">Početna stranica</a>
+        <a href="Modeli.html">Modeli</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="O nama.html">O nama</a>
+        <a href="Galerija.html">Galerija</a>
+    </nav>
+    <main>
+        <h2>Kontaktirajte nas</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.31837954164!2d15.977520115826236!3d45.80006917910685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6e75b3e8f5d%3A0x33a710e3652c14b8!2sSlavonska%20avenija%2010%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1649616253783!5m2!1shr!2shr" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="fname">Ime *</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div class="form-group">
+                <label for="lname">Prezime *</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="country">Država</label>
+                <select id="country" name="country">
+                    <option value="hrvatska">Hrvatska</option>
+                    <option value="slovenija">Slovenija</option>
+                    <option value="srbija">Srbija</option>
+                    <option value="bih">BiH</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Opis</label>
+                <textarea id="description" name="description" rows="4"></textarea>
+            </div>
+            <input type="submit" value="Pošalji">
+        </form>
+    </main>
+    <footer>
+        <p>Pratite nas na 
+            <a href="https://www.instagram.com/porsche/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a> | 
+            <a href="https://github.com/danix279" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        </p>
+        <p>Ugljični dioksid (CO₂) najvažniji je staklenički plin koji uzrokuje globalno zatopljenje. Emisije onečišćujućih tvari u vanjski zrak iz prometa značajno doprinose pogoršanju kvalitete vanjskog zraka. Posebno doprinose pretjerano povišenim koncentracijama prizemnog ozona, PM₁0 i PM₂.5 čestica i dušikovih oksida.Porsche radi svakodenovo na očuvanje našeg planeta.</p>
+    </footer>
+</body>
+</html>
